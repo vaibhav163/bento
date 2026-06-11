@@ -56,6 +56,7 @@ const IMG = {
     { src: Ol,    label: "Office Lounge" },
     { src: Rl,      label: "Rolling Lawns" },
     { src: Od,    label: "Outdoor Dining" },
+    { src: Sw,    label: "Swimming Pool" },
   ],
   QR_CODE: "bento/images/capture.JPG",                    // ← replace
 };

@@ -1,8 +1,6 @@
 import React from 'react'
 import Bent from './components/bent'
 function App() {
-  
-
   return (
     <>
       <Bent />
