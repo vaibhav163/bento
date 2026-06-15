@@ -89,22 +89,35 @@ const styles = `
   max-width: 100%;
 }
 
-// html, body {
-//   overflow-x: hidden;
-// }
-//   .row {
-//   margin-left: 0 !important;
-//   margin-right: 0 !important;
-// }
-//   .container,
-// .container-lg {
-//   padding-left: 12px !important;
-//   padding-right: 12px !important;
-// }
-//   .overview-section .row {
-//   margin-left: 0;
-//   margin-right: 0;
-// }
+
+
+
+
+
+html, body {
+  overflow-x: hidden;
+}
+  .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+  .container,
+.container-lg {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+  .overview-section .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
   html { scroll-behavior: smooth; }
   body { color: var(--body-color); font: 400 1rem var(--sans); overflow-x: hidden; margin: 0; width : 100%; }
   ul  { padding-left: 0; margin-bottom: 0; list-style: none; }
@@ -566,7 +579,7 @@ function BentoForm({ inputClass = "sf-input", btnClass = "sf-btn", requireEmail 
         setVals({ name: "", mobile: "", email: "" });
         if (onSuccess) onSuccess();
         window.open(
-          "https://wa.me/919355019172?text=Hi, I just submitted an enquiry for Codename Bento",
+          "https://wa.me/919716007900?text=Hi, I just submitted an enquiry for Codename Bento",
           "_blank"
         );
       },
@@ -634,7 +647,7 @@ export default function GaurYamunaBento() {
         });
       }
     });
-    load("https://unpkg.com/aos@2.3.0/dist/aos.js", () => window.AOS?.init({ duration: 1100, once: true }));
+    load("https://unpkg.com/aos@2.3.0/dist/aos.js", () => window.AOS?.init({ duration: 11, once: true }));
   }, []);
 
   /* scroll listeners */
@@ -696,11 +709,11 @@ export default function GaurYamunaBento() {
             ))}
           </nav>
           <div className="bento-cta">
-            <a href="tel:9355019172" className="btn-call">
+            <a href="tel:9716007900" className="btn-call">
               <i className="fa fa-phone" /> Call Now
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=+919355019172&text=Hi! I'm interested in Codename Bento – Gaur Yamuna City. Please share details."
+              href="https://api.whatsapp.com/send?phone=+919716007900&text=Hi! I'm interested in Codename Bento – Gaur Yamuna City. Please share details."
               target="_blank" rel="noreferrer" className="btn-wa"
             >
               <i className="fab fa-whatsapp" /> WhatsApp
@@ -1069,10 +1082,10 @@ export default function GaurYamunaBento() {
 
       {/* ── Mobile CTA Bar ── */}
       <div className="mob-cta-bar d-flex d-md-none">
-        <a className="wa-btn" href="https://api.whatsapp.com/send?phone=+919355019172&text=Hi! Interested in Codename Bento." target="_blank" rel="noreferrer">
+        <a className="wa-btn" href="https://api.whatsapp.com/send?phone=+919716007900&text=Hi! Interested in Codename Bento." target="_blank" rel="noreferrer">
           <i className="fab fa-whatsapp" /><span>WhatsApp</span>
         </a>
-        <a href="tel:9355019172">
+        <a href="tel:9716007900">
           <i className="fa fa-phone" /><span>Call</span>
         </a>
         <button onClick={() => setShowModal(true)}>
