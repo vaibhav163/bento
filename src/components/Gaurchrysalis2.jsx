@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import BANNER_1 from "../assetsc/banner1.jpg";
+import BANNER_2 from "../assetsc/banner2.jpg";
 
 /* ─────────────────────────────────────────────────────────
    IMAGE SOURCES
@@ -11,8 +13,8 @@ const BASE = "https://gaurchrysalis.co/";
 
 const IMG = {
   LOGO:        `${BASE}assets/images/logo/logo.png`,
-  BANNER_1:    `${BASE}assets/images/banner.webp`,
-  BANNER_2:    `${BASE}assets/images/banner1.webp`,
+  // BANNER_1:    `${BASE}assets/images/banner.webp`,
+  // BANNER_2:    `${BASE}assets/images/banner1.webp`,
   ABOUT:       `${BASE}assets/images/about/About.webp`,
   MASTER_PLAN: `${BASE}assets/images/floor-plan/MasterPlan.webp`,
   UNIT_PLAN:   `${BASE}assets/images/floor-plan/UnitPlan.webp`,
@@ -591,7 +593,7 @@ export default function GaurChrysalis2() {
       <main>
         {/* ── Banner ── */}
         <section className="gc-banner" id="home">
-          {[IMG.BANNER_1, IMG.BANNER_2].map((src, i) => (
+          {IMG.BANNER_1, IMG.BANNER_2.map((src, i) => (
             <div key={i} className={`b-slide ${bSlide === i ? "active" : ""}`}>
               <img src={src} alt={`Gaur Chrysalis 2.0 Banner ${i + 1}`} />
             </div>
