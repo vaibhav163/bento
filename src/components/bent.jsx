@@ -1060,12 +1060,12 @@ export default function GaurYamunaBento() {
                   <strong style={{ color: "var(--gold-light)", fontFamily: "var(--serif)", fontSize: "1rem" }}>
                     Codename: Bento · Gaur Yamuna City
                   </strong><br />
-                  Project RERA No.: [To Be Updated]<br />
-                  Agent RERA No.: UPRERAAGT10202<br />
+                  Project RERA No.: UPRERAPRJ351477<br />
+                  Agent RERA No.: UPRERAAGT1022<br />
                   <a href="https://up-rera.in/projects/" target="_blank" rel="noreferrer">https://up-rera.in/projects/</a>
                   {" · "}
                   <a href="privacy.php" target="_blank" rel="noreferrer">Disclaimer & Privacy Policy</a>
-                  Disclaimer – Authorized marketing partner with Eldeco Builders. The content provided on this website is for information purposes only and does not constitute an offer to avail any service. Prices are subject to change without prior notice. Images are for representation purposes only. This is the official website of an authorized marketing partner. We may share data with RERA-registered brokers/companies for further processing. All rights reserved.<br />
+                  Disclaimer – Authorized marketing partner with Gaur Group. The content provided on this website is for information purposes only and does not constitute an offer to avail any service. Prices are subject to change without prior notice. Images are for representation purposes only. This is the official website of an authorized marketing partner. We may share data with RERA-registered brokers/companies for further processing. All rights reserved.<br />
                   <em style={{ fontSize: "0.72rem", opacity: 0.6, marginTop: "0.5rem", display: "block" }}>
                     This communication is by a RERA registered agent only. Prices are indicative and subject to change.
                   </em>
