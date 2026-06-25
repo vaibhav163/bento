@@ -76,10 +76,14 @@ const styles = `
     --wine-gradient: linear-gradient(135deg, #6b1f2a 0%, #8c2e3a 100%);
     --gold-gradient: linear-gradient(135deg, #c1933f 0%, #e0b768 50%, #a67a30 100%);
   }
-
-  *,*::before,*::after { box-sizing:border-box; }
-  html { scroll-behavior:smooth; }
-  body { color:var(--body-color); font:400 1rem var(--sans); overflow-x:hidden; margin:0; }
+*,*::before,*::after { box-sizing:border-box; }
+html { scroll-behavior:smooth; overflow-x:hidden; }
+body { color:var(--body-color); font:400 1rem var(--sans); overflow-x:hidden; margin:0; width:100%; }
+.row { margin-left:0 !important; margin-right:0 !important; }
+.container, .container-lg { padding-left:12px !important; padding-right:12px !important; }
+  // *,*::before,*::after { box-sizing:border-box; }
+  // html { scroll-behavior:smooth; }
+  // body { color:var(--body-color); font:400 1rem var(--sans); overflow-x:hidden; margin:0; }
   ul { padding-left:0; margin-bottom:0; list-style:none; }
   a, a:hover { text-decoration:none; color:inherit; }
   img { width:100%; display:block; }
